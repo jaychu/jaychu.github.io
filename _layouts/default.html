@@ -1,6 +1,6 @@
-
+<!doctype html>
 <html>
-<head>
+  <head>
 	<title>Justin Chu | Full Stack Web Developer</title>
 	<link rel="icon" type="image/png" href="img/blackbox-icon.png">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -11,44 +11,20 @@
     <meta name="province" content="ON"/>
     <meta name="language" content="en"/>
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	<link href="style.css" rel="stylesheet">
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-43426182-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-</head>
-<body>
-	<section>
-	<div class="text-box-centred">
-		<div class="main-title-container">
-			<h1 class="main-title">Justin Chu</h1>
-			<h2 class="sub-title">Full Stack Web Developer</h2>
-			<div>
-				<ul>
-					<li>ASP.NET MVC</li>
-					<li>IIS</li>
-					<li>Javascript</li>
-					<li>Node</li>
-					<li>React</li>
-					<li>Redux</li>
-					<li>Python</li>
-					<li>Django</li>
-					<li>MySQL</li>
-					<li>PostgreSQL</li>
-				</ul>
-			</div>
-
-			<a class="main-button" href="https://ca.linkedin.com/in/justin-chu-4b230747">Learn More</a>
-
-		</div>			
-		</div>
-	</section>
-</body>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      
+        ga('create', 'UA-43426182-1', 'auto');
+        ga('send', 'pageview');
+      
+      </script>
+  </head>
+  <body>
+    {% include navigation.html %}
+    {{ content }}
+  </body>
 </html>
-
