@@ -3,12 +3,14 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: Home
 layout: homepage
+title: Justin Chu
+subtitle: 
 ---
-<section>
-	<div class="text-box-centred">
-		<div class="main-title-container">
-        <h1>Justin Chu</h1>
-			<h2 class="sub-title">Full Stack Web Developer</h2>
-		</div>			
+<section class="homepage-background">
+	<div class="background-overlay">
+        <div class="title-card">
+            <h1>Justin Chu</h1>
+            <h2>Full Stack Web Developer</h2>
+        </div>		
 		</div>
 	</section>
