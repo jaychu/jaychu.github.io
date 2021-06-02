@@ -1,0 +1,25 @@
+body{
+    background-color:#000;
+}
+
+h1,h2{
+    color:#fff;
+    margin:0;
+    display:block;
+    opacity:80%;
+}
+
+.container{
+    width:920px;        
+    margin:0 auto;
+}
+
+ul.post-list{
+    list-style: none;
+}
+
+p,
+.post-list,
+.post-list a{
+    color:#fff;
+}

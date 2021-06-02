@@ -1,0 +1,27 @@
+nav{
+    display:flex;
+    justify-content: space-between;
+    color: #fff;
+    margin:0 auto;
+}
+
+nav ul{
+    list-style: none;
+    display:flex;
+}
+
+nav ul a,
+nav ul a:focus,
+nav ul a:hover,
+nav ul a:visited
+{
+    color: #fff;
+    padding: 0 10px;
+}
+
+
+
+nav{
+    width:920px;
+    
+}
