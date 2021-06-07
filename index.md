@@ -14,7 +14,22 @@ layout: homepage
       <h2>Full Stack Web Developer</h2>
       <ul class="social-media">
         <li>
-          Hello!
+        <a href="{{ site.github_url }}">
+          <i class="icon-github"></i>
+          Github
+        </a>
+        </li>
+        <li>
+        <a href="{{ site.linkedin_url }}">
+          <i class="icon-linkedin"></i>
+          Linkedin
+        </a>
+        </li>
+        <li>
+        <a href="{{ site.instagram_url }}">
+          <i class="icon-instagram"></i>
+          Instagram
+          </a>
         </li>
       </ul>
     </div>		

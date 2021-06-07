@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'icons';
+    src:  url('/assets/fonts/icons.eot?b0m43m');
+    src:  url('/assets/fonts/icons.eot?b0m43m#iefix') format('embedded-opentype'),
+      url('/assets/fonts/icons.ttf?b0m43m') format('truetype'),
+      url('/assets/fonts/icons.woff?b0m43m') format('woff'),
+      url('/assets/fonts/icons.svg?b0m43m#icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+
 nav{
     display:flex;
     justify-content: space-between;
@@ -5,23 +18,67 @@ nav{
     margin:0 auto;
 }
 
-nav ul{
+nav ul,
+.social-media {
     list-style: none;
     display:flex;
+    padding:0;
 }
 
 nav ul a,
 nav ul a:focus,
 nav ul a:hover,
-nav ul a:visited
-{
+nav ul a:visited{
     color: #fff;
     padding: 0 10px;
 }
 
-
-
 nav{
     width:920px;
-    
+}
+
+.social-media{
+    color:#fff;
+}
+
+.social-media a,
+.social-media a:focus,
+.social-media a:hover,
+.social-media a:visited{
+    color: #fff;
+    text-decoration:none;
+    border-bottom:2px #fff solid;
+    padding-bottom:5px;
+}
+
+.social-media li{
+    padding: 0 20px;
+}
+
+[class^="icon-"]::before, 
+[class*=" icon-"]:before{
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size:25px;
+  }
+  
+
+.icon-instagram:before {
+    content: "\ea92";
+}
+.icon-github:before {
+    content: "\eab0";
+}
+.icon-linkedin:before {
+    content: "\eac9";
 }

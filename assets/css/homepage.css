@@ -30,7 +30,6 @@ h1,h2{
     color:#fff;
     margin:0;
     display:block;
-    opacity:80%;
 }
 
 
@@ -41,3 +40,4 @@ h1.homepage-title{
 h2{
     font-size:35px;
 }
+
