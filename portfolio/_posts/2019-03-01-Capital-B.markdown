@@ -1,0 +1,10 @@
+---
+layout: default
+title:  "Capital B Wines"
+date-started:   2019-02-01
+date-ended: 2019-03-01
+status: "active"
+image: "/assets/images/CapitalB.jpg"
+---
+This site, running on django, is a portfolio website using postgresql that stores images of the many works of art created by Katherine Blaszczak. The site is designed to be responsive in all view ports and data is being managed behind the administrative panel in django. 
+

@@ -9,35 +9,21 @@ h1,h2{
     opacity:80%;
 }
 
-.container{
-    width:920px;        
-    margin:0 auto;
-}
-
-ul.post-list{
-    list-style: none;
-}
-
-p,
-.post-list,
-.post-list a{
-    color:#fff;
-}
-
 .portfolio-grid{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:center;
 }
 
 .grid-item{
     display:block;
-    width:250px;
-}
-
-.grid-item img{
-    width:100%;
+    margin:5px;
+    width:350px;
+    height:350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .grid-item .excerpt{

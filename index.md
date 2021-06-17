@@ -2,7 +2,8 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: homepage
+layout: freeform
+css: "/assets/css/homepage.css"
 ---
 <section class="homepage-background">
   <div class="main-title-card"></div>
